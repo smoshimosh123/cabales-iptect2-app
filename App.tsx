@@ -1,15 +1,14 @@
-// src/App.tsx
 import React from "react";
-import Home from "./src/screens/home-page";
+import Header from "./src/components/Header";
+import BodyPage from "./src/components/Body-page";
+import Footer from "./src/components/Footer";
 
 const App: React.FC = () => {
   return (
     <div>
-      <Home
-        name="Carla Cabales"
-        age={20}
-        bio="I am a React developer learning TypeScript."
-      />
+      <Header />
+      <BodyPage />
+      <Footer />
     </div>
   );
 };
